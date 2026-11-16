@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    color: blue;
+    align-items: center;
+    text-align: center;
+    font-size:2cm;
+    background-color: rgb(39, 38, 38);
+}
+h2{
+    font-size: xx-large;
+}
