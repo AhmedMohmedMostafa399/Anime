@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: rgb(48, 48, 51);
     color: aliceblue;
     transition: transform 0.3s ease;
 }
@@ -13,7 +13,7 @@ h1{
     background-color: rgb(39, 48, 132);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-h1:hover{
+h1:hover {
     color: aqua;
     font-size: 85px;
 }
@@ -28,7 +28,7 @@ p{
     font-size: large;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.img-1 img {
+img {
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
@@ -38,22 +38,53 @@ p{
 .first-section{
     display: flex;
     align-items: center;
-    gap: 200px;
-    padding: 100px;
-    background-color: rgb(47, 49, 51);
-    border-radius: 20px;
     border: 5px solid rgb(39, 48, 132);
-    margin-left: 30px;
-    margin-right: 30px;
 
 }
 .second-section{
     align-items: center;
-    gap: 200px;
-    padding: 100px;
-    border-radius: 20px;
-    background-color: rgb(48, 48, 51);
     border: 5px solid rgb(39, 48, 132);
+
+}
+.third-section{
+    align-items: center;
+    border: 5px solid rgb(39, 48, 132);
+
+}
+li{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(185, 245, 255);
+}
+.first-section , .second-section , .third-section , .attack , .one-piece , .jujutsu{
+    gap: 200px;
+    padding: 50px;
+    border-radius: 20px;
+    background-color: black;
     margin-left: 30px;
     margin-right: 30px;
+}
+.attack{
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(120, 7, 7);
+}
+.attack h2:hover , .attack a{
+    color: rgb(192, 36, 36);
+}
+.one-piece{
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(223, 226, 24);
+}
+.one-piece h2:hover , .one-piece a{
+    color: rgb(223, 226, 24);
+}
+.jujutsu{
+    display: flex;
+    align-items: center;
+    border: 5px solid rgb(25, 0, 255);
+}
+.jujutsu h2:hover , .jujutsu a{
+    color: rgb(25, 0, 255);
 }
